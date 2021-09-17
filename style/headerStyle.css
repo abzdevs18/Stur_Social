@@ -1,0 +1,254 @@
+.h_icons {
+	display: flex;
+	flex-direction: row;
+}
+.h_icons > div {
+	padding: 0 15px;
+}
+.h_icons > div:hover .h_icon {
+	color: #c1c1c1;
+}
+.h_icons > div:hover span {
+	color: #c1c1c1;
+}
+.h_prof_icon_img {
+	margin-top: -10px;
+}
+.h_prof_icon_img img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border:2px solid #fff;
+}
+.p_name {
+	position: relative;
+	margin: 0 10px;
+}
+.p_name > span {
+	font-size: 14px;
+	margin-top: -3px;
+}
+.p_name > i {
+	font-size: 12px;
+}
+.log_out_drp i {
+	font-size: 20px;
+	cursor: pointer;
+	color: #f3f3f3;
+}
+.log_out_drp a i:hover {
+	color: #c1c1c1;
+}
+.drp_btn {
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	background-color: #999;
+	margin: 38px 15px;
+	padding: 10px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+/*
+*
+*
+* Post Comment styling
+*
+*
+*/
+.wrap_comment {
+	width: 100%;
+}
+.wrap_comment > form {
+	display: flex;
+	flex-direction: row;
+	margin: 0px auto !important;
+}
+
+
+/*Left Sidebar menu*/
+.sidebar_menu {
+	padding: 10px;
+}
+.sidebar_menu > a {
+	color: #2f0c75 !important;
+    font-size: 11px;
+	padding: 0 10px;
+	margin: 0px auto;
+}
+.sidebar_menu > a:hover {
+	text-decoration: underline;
+}
+
+.f_r_comment {
+	width: 90% !important;
+    display: flex;
+    margin: 0px auto;
+}
+.r_comment_ {
+	width: 100%;
+    padding-left: 7px;
+    margin-top: 7px !important;
+}
+.previous_r_comment {
+	width: 90% !important;
+    margin: 0px auto;
+        color: rgba(0,0,0,.6);
+    display: flex;
+    /*padding: 5px 0px;*/
+}
+.comment_style_prof_com {
+	display: flex;
+    flex-direction: row;
+    /*background-color: #55555521;*/
+    background-color:rgba(210,210,210,1);
+    padding: 4px 8px;
+    border-radius: 30px;
+}
+.previous_r_comment_details > b {
+	font-size: 13px;
+	margin-bottom: 3px;
+}
+.previous_r_comment_details > p {
+	font-size: 13px;
+	margin-bottom: 10px
+}
+
+.c_r_reactions {
+    color: rgba(0,0,0,.8);
+}
+.l_d {
+	margin-left: 5px;
+}
+.c_r_reactions > span {
+	font-size: 12px;
+}
+.c_r_reactions > span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*UPLOADing STYLE*/
+.p_container {
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 9px 15px -6px #999;
+}
+.p_container > form {
+	width: 100%;
+	height: auto;
+	background-color: #f3f3f3 !important;
+}
+.p_profile_wrapper {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.p_profile {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+.p_prof_icon {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+.p_prof_icon > img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.p_prof_loc {
+	color: #222;
+	margin: 20px 0px;	
+}
+.p_details {
+	width: 98%;
+	margin: 0 auto;
+	padding: 5px 0px 20px;
+	color: #222;
+}
+.p_details > input{
+	background-color: #f3f3f3 !important;
+	outline: none;
+	border-radius: 0px;
+	border:none;
+	font-size: 1.5em;
+	color: #555;
+}
+.submitPost {
+	width: 100%;
+}
+.s_btn_post {
+	float: right;
+	margin: 10px;
+	width:80px;
+}
+.s_btn_post > input {
+	color: #fff;
+	background-color: #0073b1 !important;
+	border-radius: 3px !important;
+	font-weight: bold;
+	cursor: pointer;
+}
+.s_btn_post > input:hover {
+	background-color: #006097 !important;
+}
+.p_icon {
+	margin:10px;
+}
+.p_icon > i {
+	color: #888;
+	font-size: 25px;
+	cursor: pointer;
+}
+.p_icon:hover i{
+	color: #222;
+}
+#photoUpload:hover #icon_photo {
+	color: #222;
+}
+
+/*PUBLIC or PRIVATE */ 
+.audience_wrapper {
+    width: 100px;
+    margin: 15px 5px;
+}
+.select_audience {
+    border-radius: 0;
+    border: none;
+    padding: 4px 9px;
+    color: #325777;
+    font-weight: bold;
+    font-size: 12px;
+}
+.select_audience > option {
+    color: #325777;
+    font-weight: bold;
+    font-size: 12px;	
+}
+
+/*Drop down chat */
+
+.message_drp {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #676d79;
+    text-align: right;
+    margin-left: -222px;
+    margin-top: 43px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+/*.chat:hover .message_drp {
+	display: block !important;
+}*/
+
+
